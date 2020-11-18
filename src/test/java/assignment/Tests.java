@@ -16,7 +16,8 @@ public class Tests {
    @Test
    public void test(){
        App.main(null);
-       //assertEquals("EXPECTED", App.testMethod(), "ERROR MESSAGE");
+       assertEquals(true, App.isEven(22), "INCORRECT");
+       assertEquals(false, App.isEven(301), "INCORRECT");
    }
 
 }

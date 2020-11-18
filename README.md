@@ -1,17 +1,25 @@
-# **Assignment Title**  
+# **Even or Odd**  
 
 ## **Assignment Description**  
-
+Create a method called isEven that returns true/false if a given int n is even or odd. The method should return true if n is even and false if n is odd.
 
 ## **Examples**  
->
+>isEven(16)  
+true
 
-## **Limitations**  
+>isEven(11)  
+false
+
+## **Limitations** 
+1 method
+1 if
+1 else 
 
 ## **Hints**  
+Use the % operator help determine if n is even or odd.
 
 ## **Concepts**  
-
+Methods, Operators, int, if/else
 
 ---
 
