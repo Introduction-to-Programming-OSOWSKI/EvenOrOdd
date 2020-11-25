@@ -15,7 +15,7 @@ public class Tests {
 
 
    @Test
-   public void test(){
+   public void code(){
        App.main(null);
        assertEquals(true, App.isEven(22), "INCORRECT");
        assertEquals(false, App.isEven(301), "INCORRECT");
